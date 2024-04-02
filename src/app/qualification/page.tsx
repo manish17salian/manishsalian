@@ -57,7 +57,7 @@ export default function Qualification(){
                 height: auto;
                 padding: 15px 20px;
                 background-color: #ddd;
-                border-radius: 8px;
+                border-radius: 20px;
                 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
                 position: relative;
                 margin-bottom: 30px;
@@ -95,7 +95,6 @@ export default function Qualification(){
                 position: absolute;
                 padding: 10px;
                 margoin-bottom: 2px;
-                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,99,183,1) 35%);
                 border-radius: 15px;
                 top: -45px;
                 display: grid;
@@ -103,6 +102,16 @@ export default function Qualification(){
                 color: #fff;
                 box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
             }
+
+            ul li .work {
+                background: linear-gradient(90deg, rgba(92,139,214,1) 60%, rgba(120,161,226,1) 80%, rgba(142,178,235,1) 100%);
+            }
+
+            ul li .edu {
+                background: linear-gradient(to right, #4e54c8, #8f94fb);
+            }
+
+
             .container ul li:nth-child(odd) {
                 float: left;
                 clear: right;
@@ -169,6 +178,10 @@ export default function Qualification(){
                 .container ul li:nth-child(even) {
                     transform: translateX(0px);
                 }
+
+                ul li:nth-child(odd) .date {
+                    right: unset;
+                }
             }
             
             @media only screen and (max-width: 550px) {
@@ -181,6 +194,7 @@ export default function Qualification(){
                 .container ul li .circle{
                     left: -20px;
                 }
+
             }
             `
         }
@@ -191,28 +205,28 @@ export default function Qualification(){
     <div className="container justify-center w-full justify-self-center qulatification_container">
                 <ul>
                     <li>
-                        <p className="heading max-lg:text-base text-2xl ">DJ SANGHVI COLLEGE OF ENGINEERING</p>
-                        <p className="max-lg:text-sm text-xl">Bachelors in Electronics Engineering</p>
-                        <a href="#"></a>
-                        <span className="date max-lg:text-sm">Education 08/16 - 10/20</span>
-                        <span className="circle"></span>
-                    </li>
-                    <li>
-                        <p className="heading max-lg:text-base text-2xl">BREEUR SOLUTIONS</p>
-                        <p className="max-lg:text-sm text-xl">Junior Technology Developer</p>
-                        <span className="date max-lg:text-sm">Work 01/21 - 03/21</span>
+                        <p className="heading max-lg:text-base text-2xl">University College Dublin</p>
+                        <p className="max-lg:text-sm text-xl">Masters in Computer Science</p>
+                        <span className="date max-lg:text-sm edu">Education 09/22 - 12/23</span>
                         <span className="circle"></span>
                     </li>
                     <li>
                         <p className="heading max-lg:text-base text-2xl">Travelxp Pvt Ltd</p>
                         <p className="max-lg:text-sm text-xl">Frontend Developer</p>
-                        <span className="date max-lg:text-sm">Work 08/21 - 03/22</span>
+                        <span className="date max-lg:text-sm work">Work 08/21 - 03/22</span>
                         <span className="circle"></span>
                     </li>
                     <li>
-                        <p className="heading max-lg:text-base text-2xl">University College Dublin</p>
-                        <p className="max-lg:text-sm text-xl">Masters in Computer Science</p>
-                        <span className="date max-lg:text-sm">Education 09/22 - 12/23</span>
+                        <p className="heading max-lg:text-base text-2xl">BREEUR SOLUTIONS</p>
+                        <p className="max-lg:text-sm text-xl">Junior Technology Developer</p>
+                        <span className="date max-lg:text-sm work">Work 01/21 - 03/21</span>
+                        <span className="circle"></span>
+                    </li>
+                    <li>
+                        <p className="heading max-lg:text-base text-2xl ">DJ SANGHVI COLLEGE OF ENGINEERING</p>
+                        <p className="max-lg:text-sm text-xl">Bachelors in Electronics Engineering</p>
+                        <a href="#"></a>
+                        <span className="date max-lg:text-sm edu">Education 08/16 - 10/20</span>
                         <span className="circle"></span>
                     </li>
                 </ul>

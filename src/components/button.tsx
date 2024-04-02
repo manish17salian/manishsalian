@@ -15,7 +15,7 @@ interface ButtonProps {
                 --color: #DDDD;
                 padding: 0.8rem 1.7rem;
                 background-color: transparent;
-                border-radius: .3em;
+                border-radius: .3rem;
                 position: relative;
                 overflow: hidden;
                 cursor: pointer;

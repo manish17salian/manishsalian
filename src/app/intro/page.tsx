@@ -18,6 +18,7 @@ const onClickFunc = ()=>{
         }
       .gridBorder{
         border: 3px solid white;
+        border-radius: 20px;
       }
       .borderRight{
         border-right: 3px solid white;
@@ -33,7 +34,7 @@ const onClickFunc = ()=>{
     `}</style>
             <main className="grid min-h-screen flex-col items-center p-20 lg:grid-cols-12 introBody max-sm:p-5">
                 <div className="grid text-center lg:max-w-10xl lg:w-full lg:mb-0 lg:grid-cols-12 lg:text-center lg:col-span-12">
-                    <p className={`text-6xl lg:col-span-12 ${pirateOne_regular.className} pb-3.5`}>Hi, I’m Manish Salian. Nice to meet you.</p>
+                    <p className={`text-6xl lg:col-span-12 ${pirateOne_regular.className} pb-3.5`}>Hi, I’m <span style={{color: '#C086EA'}}>Manish Salian</span>. Nice to meet you.</p>
                     <p className={`text-xl max-lg:text-base lg:col-span-12`}>
                         I&apos;m a tech enthusiast with practical know-how in crafting both Native Apps and Web applications.
                         I enjoy bringing my front-end skills to the table, creating apps that are not just functional but also user-centered and interactive.

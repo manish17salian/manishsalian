@@ -5,6 +5,9 @@ import Button from '@/components/button';
 import ScrollLottie from '@/components/scrollLottie';
 
 export default function Work() {
+    const onClickFunc = (link:string)=>{
+        window.open(link, '_blank')
+    }
 
     return (
 
@@ -72,7 +75,7 @@ export default function Work() {
             .card-body {
                 box-sizing: border-box;
                 padding: 30px;
-                border-radius: 50px;
+                border-radius: 20px;
                 box-shadow: 0 0 30px 0 rgba(0,0,0,0.3);
                 height: 85vh;
                 display: flex;
@@ -116,7 +119,10 @@ export default function Work() {
                                         sizes="60vh"
                                         style={{ width: 'auto', borderRadius:"10px" }} />
                                     <p className={`text-5xl ${pirateOne_regular.className} max-md:text-3xl p-4`}>Faang Connect</p>
-                                    <p className='text-xl max-lg:text-lg'>FAANGConnect is a scalable & distributed web application designed to ease the job-seeking process within the software development domain. It consolidates the employment opportunities dispersed across the prominent FAANG companies. The primary goal is to simplify the job application process for software developers by centralizing job listings from these organizations.</p>
+                                    <p className='text-xl max-lg:text-lg max-md:text-md max-sm:text-md'>FAANGConnect is a scalable & distributed web application designed to ease the job-seeking process within the software development domain. It consolidates the employment opportunities dispersed across the prominent FAANG companies. The primary goal is to simplify the job application process for software developers by centralizing job listings from these organizations.</p>
+                                    <div className='justify-left lg:col-span-12 my-5'>
+                    <Button text={'View'} onClickFunc={()=>console.log()}/>
+                </div>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +141,10 @@ export default function Work() {
                                         sizes="60vh"
                                         style={{ width: 'auto', borderRadius:"10px" }} />
                                     <p className={`text-5xl ${pirateOne_regular.className} p-4 max-md:text-3xl`}>Smart City Explorer</p>
-                                    <p className='text-xl max-lg:text-lg'>Smart City Explorer (SCE) is a web application designed to help locals and tourists navigate Manhattan&apos;s intricate urban landscape abundant in attractions and culinary establishments. The application curates tailored itineraries by employing recommendation algorithms to enhance itinerary precision and incorporating machine learning models to gauge venue busyness, optimizing urban navigation.</p>
+                                    <p className='text-xl max-lg:text-lg max-md:text-md max-sm:text-md'>Smart City Explorer (SCE) is a web application designed to help locals and tourists navigate Manhattan&apos;s intricate urban landscape abundant in attractions and culinary establishments. The application curates tailored itineraries by employing recommendation algorithms to enhance itinerary precision and incorporating machine learning models to gauge venue busyness, optimizing urban navigation.</p>
+                                    <div className='justify-left lg:col-span-12 my-5 '>
+                    <Button text={'View'} onClickFunc={()=>console.log()}/>
+                </div>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +163,10 @@ export default function Work() {
                                         sizes="60vh"
                                         style={{ width: 'auto', borderRadius:"10px" }} />
                                     <p className={`text-5xl ${pirateOne_regular.className} p-4`}>Dublin Bikes</p>
-                                    <p className='text-xl max-lg:text-lg'>Dublinbikes is a public bicycle rental scheme that operates in the city of Dublin. It is designed to provide users with real-time information about the availability of bikes and bike stands at all Dublin Bikes stations. Both the web and mobile versions of the app includes a map of Dublin that allows users to locate the nearest bike station with available bikes and stands. Users can also get directions to their station of choice.</p>
+                                    <p className='text-xl max-lg:text-lg max-md:text-md max-sm:text-md'>Dublinbikes is a public bicycle rental scheme that operates in the city of Dublin. It is designed to provide users with real-time information about the availability of bikes and bike stands at all Dublin Bikes stations. Both the web and mobile versions of the app includes a map of Dublin that allows users to locate the nearest bike station with available bikes and stands. Users can also get directions to their station of choice.</p>
+                                    <div className='justify-left lg:col-span-12 my-5 '>
+                    <Button text={'View'} onClickFunc={()=>console.log()}/>
+                </div>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +185,10 @@ export default function Work() {
                                         sizes="50vh"
                                         style={{ width: 'auto', borderRadius:"10px" }} />
                                     <p className={`text-5xl ${pirateOne_regular.className} max-md:text-3xl p-4`}>Travelxp</p>
-                                    <p className='text-xl max-lg:text-lg'>In my previous role at Travelxp, an OTT and booking platform, I played a key role in developing innovative features for both Android and iOS mobile applications using React Native. Additionally, I was responsible for maintaining React-based Web applications, including CRM and CMS systems.</p>
+                                    <p className='text-xl max-lg:text-lg max-md:text-md max-sm:text-md'>In my previous role at Travelxp, an OTT and booking platform, I played a key role in developing innovative features for both Android and iOS mobile applications using React Native. Additionally, I was responsible for maintaining React-based Web applications, including CRM and CMS systems.</p>
+                                    <div className='justify-left lg:col-span-12 my-5 '>
+                    <Button text={'View'} onClickFunc={()=>console.log()}/>
+                </div>
                                 </div>
                             </div>
 

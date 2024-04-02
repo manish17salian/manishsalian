@@ -75,11 +75,11 @@ export default function Home() {
         </div>
         <div className="mb-32 grid text-center lg:max-w-10xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left lg:col-span-4">
           <Image
-            src="/emoji.png"
-            sizes='40vw'
+            src="/ManishSalian_Profile_2.jpg"
+            sizes='50vw'
             height={0}
             width={0}
-            style={{ width: 'auto', justifySelf: 'center' }}
+            style={{ width: 'auto', justifySelf: 'center', borderRadius: '.3rem' }}
             alt="Picture of the author"
             className="w-full h-full object-cover lg:col-span-4 "
              // Set both width and height to 100%, and use object-cover to fill the container
