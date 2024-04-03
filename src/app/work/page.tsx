@@ -111,6 +111,8 @@ export default function Work() {
             @media (min-height: 760px) {
                 .text-medium-at-min-height {
                   font-size: 20px; /* This is equivalent to Tailwind's text-base */
+                  line-height: 1.2;
+                  font-weight:200;
                 }
             }
             `
