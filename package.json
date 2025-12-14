@@ -12,7 +12,8 @@
     "@emailjs/browser": "^3.12.1",
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.12.2",
-    "next": "14.0.4",
+    "next": "^14.2.35",
+    "portfolio": "file:",
     "react": "^18",
     "react-dom": "^18"
   },
