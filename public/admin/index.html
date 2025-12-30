@@ -4,10 +4,18 @@
   <meta charset="utf-8" />
   <title>Content Manager</title>
       <link rel="cms-config-url" href="config.yml" type="text/yaml"/>
+<script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/decap-cms@3/dist/decap-cms.js"></script>
 </head>
 <body>
-  
+  <div id="nc-root"></div>
+
+    <script>
+      // If your config is at /config.yml (root)
+      CMS.init({ config: { load_config_file: true } });
+    </script>
 </body>
 </html>
