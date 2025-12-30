@@ -1,9 +1,10 @@
 backend:
   name: github
-  repo: https://github.com/manish17salian/manishsalian
+  repo: manish17salian/manishsalian
   branch: main
-  base_url: https://decap-oauth-helper.vercel.app/
+  base_url: https://decap-oauth-helper.vercel.app
   auth_endpoint: api/auth
+
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
