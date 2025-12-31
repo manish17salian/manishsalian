@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
-const postsDir = path.join(process.cwd(), "content/blog");
+const postsDir = path.join(process.cwd(), "blog");
 
 export type PostMeta = {
   slug: string;
