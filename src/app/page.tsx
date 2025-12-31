@@ -3,6 +3,7 @@ import Home from "./home/page"
 import Intro from "./intro/page"
 import Qualification from "./qualification/page"
 import Work from "./work/page"
+import BlogSection from "./blog/page"
 
 export default function App(){
     return (
@@ -15,6 +16,7 @@ export default function App(){
             <Work/>
             <Qualification/>
             <Contact/>
+            <BlogSection />
         </main>
     )
 }
