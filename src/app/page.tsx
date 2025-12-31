@@ -16,7 +16,7 @@ export default function App(){
             <Work/>
             <Qualification/>
             <Contact/>
-            <BlogSection />
+            {/* <BlogSection /> */}
         </main>
     )
 }
